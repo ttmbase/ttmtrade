@@ -1,0 +1,17 @@
+{
+  "name": "TtmBase",
+  "version": "0.2.1",
+  "description": "To The Moon Cryptocurrency Exchange",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Barzillin/opentrade.git"
+  },
+  "dependencies": {
+    "express": "latest",
+    "ws": "latest",
+    "sendmail": "latest",
+    "sqlite3": "latest",
+    "ejs": "latest",
+    "cors": "latest"
+  }
+}
