@@ -4,11 +4,20 @@ Live version: https://ttmbase.com/
 
 
 ```
-[sudo] apt-get update
-[sudo] apt-get install build-essential libssl-dev curl -y
+apt-get update
+apt-get full-upgrade
+
+#Sublime
+sudo apt install apt-transport-https
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
+
+apt-get install build-essential libssl-dev curl -y
 curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh -o install_nvm.sh
 bash install_nvm.sh
-[sudo] reboot
+reboot
 
 nvm install 12.6.0
 
