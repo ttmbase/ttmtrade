@@ -16,7 +16,7 @@ v.0.1.0
 Live version: https://ttmbase.com/
 
 
-Bitcoin 36WA1WESULub6Q434bQcnmpnk62oLD7vuQ
+Bitcoin bc1qlzeqc7w976yrgv4eg0w3htmxggtjlgdtjf2llz
 
 Marycoin M9dKNcBYgrbbE2f4tz3ud32KLKj1i9FrmN
 
