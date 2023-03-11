@@ -8,6 +8,7 @@
 <h1 align="center">
 
 TTMBASE Core
+v.0.1.0
 ===========
 
 <div align="center"># TTMBASE - To The Moon cryptocurrency exchange!
