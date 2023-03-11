@@ -44,8 +44,8 @@ exports.object = {
         'Your history' : ['Your history', 'Ваши исполненные заявки'],
         'Trade history' : ['Trade history', 'История торгов'],
         'Forgot your password?' : ['Forgot your password?', 'Забыли пароль?'],
-        'New to OpenTrade?' : ['New to OpenTrade?', 'Еще не зарегистрированы на OpenTrade?'],
+        'New to TtmBase?' : ['New to TtmBase?', 'Еще не зарегистрированы на TtmBase?'],
         'Sign up now!' : ['Sign up now!', 'Зарегистрироваться сейчас!'],
-        'OpenTrade - Open Source Cryptocurrency Exchange' : ['OpenTrade - Open Source Cryptocurrency Exchange', 'OpenTrade - Биржа криптовалют с открытым кодом']
+        'TtmBase - Open Source Cryptocurrency Exchange' : ['TtmBase - To The Moon Cryptocurrency Exchange', 'TtmBase - Биржа криптовалют']
     }
 };

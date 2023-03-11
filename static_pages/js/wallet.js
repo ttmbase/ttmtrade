@@ -234,7 +234,7 @@ function ShowWithdrawDialog(coin, coinID, coinTicker)
     );
     const passwordGroup = $(
       '<div class="form-group">'+
-        '<label for="id_password" class="control-label  requiredField">'+utils.OPENTRADE+' password<span class="asteriskField">*</span> </label>'+
+        '<label for="id_password" class="control-label  requiredField">'+utils.TTMBASE+' password<span class="asteriskField">*</span> </label>'+
         '<input class="textinput textInput form-control" id="id_password" maxlength="100" name="password" type="password" required>'+
         '<div class="invalid-feedback">This field is required.</div>'+
       '</div>'

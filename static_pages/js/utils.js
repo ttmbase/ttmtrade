@@ -103,7 +103,7 @@ const utils =
     DEFAULT_PAIR: DEFAULT_PAIR,
     COMISSION: TRADE_COMISSION,
     
-    OPENTRADE: "OpenTrade",
+    TTMBASE: "TtmBase",
     USD_NAME: "US Dollar",
     USD_TICKER: "USD",
     RUB_NAME: "Ruble",

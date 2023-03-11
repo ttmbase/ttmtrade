@@ -1,12 +1,12 @@
 'use strict';
 
-const SUPPORT_EMAIL = 'support@email.com';
-const NOREPLY_EMAIL = 'no-reply@email.com';
+const SUPPORT_EMAIL = 'support@ttmbase.com';
+const NOREPLY_EMAIL = 'no-reply@ttmbase.com';
 const DOMAIN = 'localhost';
 
-const MAILER_NAME = 'OpenTrade Mailer';
-const START_MESSAGE = 'OpenTrade started!';
-const OPENTRADE = "OpenTrade";
+const MAILER_NAME = 'TtmBase Mailer';
+const START_MESSAGE = 'TtmBase started!';
+const TTMBASE = "TtmBase";
 
 exports.ACCOUNTS_SERVER = "127.0.0.1";
 exports.ACCOUNTS_PORT = 40745;
@@ -37,7 +37,7 @@ const MAX_IP_CONNECTIONS = 100;
 
 const MAX_USER_WITHDRAW = 100; //Percentage from trade deposit
 
-const DATABASE_PATH = '/root/opentrade/server/database/sqlite.db';
+const DATABASE_PATH = '/root/ttmtrade/server/database/sqlite.db';
 const PRIVATE_CONSTANTS_PATH = "./modules/private_constants";
 
 exports.dbTables = [
@@ -244,7 +244,7 @@ exports.NOREPLY_EMAIL = PRIVATE.NOREPLY_EMAIL || NOREPLY_EMAIL;
 exports.START_MESSAGE = PRIVATE.START_MESSAGE || START_MESSAGE;
 exports.MAILER_NAME = PRIVATE.MAILER_NAME || MAILER_NAME;
 exports.MAX_USER_WITHDRAW = PRIVATE.MAX_USER_WITHDRAW || MAX_USER_WITHDRAW;
-exports.OPENTRADE = PRIVATE.OPENTRADE || OPENTRADE;
+exports.TTMBASE = PRIVATE.TTMBASE || TTMBASE;
 exports.DOMAIN = PRIVATE.DOMAIN || DOMAIN;
 
 exports.share["my_portSSL"] = PRIVATE.SSL_PORT || 443;

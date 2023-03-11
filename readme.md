@@ -1,4 +1,4 @@
-# TTMBASE is the best  cryptocurrency exchange!
+# TTMBASE - To The Moon cryptocurrency exchange!
 
 Live version: https://ttmbase.com/
 
@@ -12,8 +12,8 @@ bash install_nvm.sh
 
 nvm install 12.6.0
 
-git clone --recurse-submodules https://github.com/3s3s/opentrade.git
-cd opentrade/accountsserver
+git clone --recurse-submodules https://github.com/ttmbase/ttmtrade
+cd ttmbase/accountsserver
 git checkout master
 cd ..
 
@@ -21,7 +21,7 @@ cd ..
 [sudo] npm install -g forever
 ```
 
-## Here is an example of the file ~/opentrade/server/modules/private_constants.js Edit with your configs.
+## Here is an example of the file ~/ttmtrade/server/modules/private_constants.js Edit with your configs.
 ```
 'use strict';
 
@@ -42,17 +42,17 @@ exports.walletspassphrase = {
 **After, you can run exchange**
 
 ```
-cd ~/opentrade/databaseServer
+cd ~/ttmtrade/databaseServer
 [sudo] forever start main.js
-cd ~/opentrade/accountsserver
+cd ~/ttmtrade/accountsserver
 git checkout master
 [sudo] forever start main.js
-cd  ~/opentrade/server
+cd  ~/ttmtrade/server
 [sudo] forever start main.js
 ```
 
 In your browser address bar, type https://127.0.0.1
-You will see OpenTrade.
+You will see TTMBASE.
 
 The first registered user will be exchange administrator. 
 
@@ -88,10 +88,10 @@ Also, you must encrypt your cryptocurrency wallet with this command.
 ```
 *If coin have no "coin-cli" file then try something like "coind" instead*
 
-*If coin is not supported by encryption (like ZerroCash and it forks) the coin can not be added to OpenTrade.*
+*If coin is not supported by encryption (like ZerroCash and it forks) the coin can not be added to TTMBASE.*
 
 
-Add your coin details to OpenTrade
+Add your coin details to TTMBASE
 
 1. Register on exchange. The first registered user will be exchange administrator.
 2. Go to "Admin Area" -> "Coins" -> "Add coin"
@@ -102,9 +102,9 @@ Add your coin details to OpenTrade
 
 All visible coins should be appear in the Wallet. You should create default coin pairs now.
 
-File ~/opentrade/server/constants.js have settings that you can change
+File ~/ttmtrade/server/constants.js have settings that you can change
 
-https://github.com/3s3s/opentrade/blob/master/server/constants.js
+https://github.com/ttmbase/ttmtrade/blob/master/server/constants.js
 
 ```
 exports.NOREPLY_EMAIL = 'no-reply@email.com'; //change no-reply email
@@ -120,7 +120,7 @@ exports.recaptcha_pub_key = "6LeX5SQUAAAAAKTieM68Sz4MECO6kJXsSR7_sGP1"; //change
 
 ```
 
-File ~/opentrade/static_pages/chart.html
+File ~/ttmtrade/static_pages/chart.html
 
 ```
 const PORT_SSL = 40443; //change to your ssl port (usualy 443)
@@ -147,7 +147,7 @@ Litecoin LTbDdTijroJEyXt27apQSnuMY4RoXyjdq2
 
 # License
 
-OpenTrade is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
+TTMBASE is released under the terms of the MIT license. See LICENSE for more information or see https://opensource.org/licenses/MIT.
 
 
 
